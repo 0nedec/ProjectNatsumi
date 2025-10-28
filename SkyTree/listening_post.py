@@ -21,6 +21,8 @@ api = Api(app)
 
 #Define the routes for each of our resources
 api.add_resource(resources.Tasks, '/tasks', endpoint='tasks')
+api.add_resource(resources.Results, '/results')
+api.add_resource(resources.History, '/history')
 
 #Start in debug mode
 if __name__ == '__main__':
