@@ -9,7 +9,7 @@ This is not my code or original work, but if I end up adding anything I'll make 
 noted.
 
 Once fully implemented the goal of this is to have the following functionality:
-- C2 Server (aka listening post) written in python with a MongoDB backend.
+- C2 Server (aka listening post) written in python with a flask and MongoDB backend.
 - Basic Implant (aka agent) written in C++
 - Operator CLI
 
