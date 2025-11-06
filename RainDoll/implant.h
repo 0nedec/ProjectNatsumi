@@ -37,6 +37,8 @@ private:
 	std::atomic_bool isRunning;
 	//Define our mutexes since we're doing async I/O stuff
 	std::mutex taskMutex, resultsMutex;
+	//Where we store our results
+	boost::property_tree::ptree results;
 	// Where we store our tasks
 	std::vector<Task> tasks;
 	//Generate random device:

@@ -22,3 +22,9 @@ venv/
 #Logs and tmp
 **/*.log
 **/tmp/
+**/out/
+
+CMake*
+vcpkg*
+
+**/.vs/
